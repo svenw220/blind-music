@@ -1,0 +1,12 @@
+{
+    "package": {
+        "productName": "THERA-music (dev)"
+    },
+    "tauri": {
+        "updater": {   
+            "endpoints": [
+                "https://jymmin-tauri-update-server.herokuapp.com/app/rehab-cycling/releases/{{target}}/{{current_version}}?channel=dev"
+            ]
+        }
+    }
+}

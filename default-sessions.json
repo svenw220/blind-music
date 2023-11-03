@@ -1,0 +1,175 @@
+[
+    {
+        "id": "1",
+        "name": "Klassik",
+        "state": 0,
+        "version": 1,
+        "local": false,
+        "songs": [
+            {
+                "id": "aa849eb2-6684-4972-b051-f19b69c73b74",
+                "name": "Sonata V",
+                "author": "Gaspard Fritz (arr. Eric Busch)",
+                "duration": {
+                    "infinite": false,
+                    "bars": 140
+                },
+                "timedEvents": []
+            },
+            {
+                "id": "b9820e59-f4d4-4860-86a6-6758d153381e",
+                "name": "Der Nussknacker (Auszug)",
+                "author": "Pjotr Iljitsch Tschaikowski (arr. Beste Özçelebi)",
+                "duration": {
+                    "infinite": false,
+                    "bars": 98
+                },
+                "timedEvents": []
+            }
+        ],
+        "image": "cover-7.png"
+    },
+    {
+        "id": "2",
+        "name": "Relaxing Tunes",
+        "state": 0,
+        "version": 1,
+        "local": false,
+        "songs": [
+            {
+                "id": "84ce407e-e426-44ac-afbe-0ca74e2806fa",
+                "name": "Rain Sounds Better With You",
+                "author": "Junyu Guo",
+                "duration": {
+                    "infinite": false,
+                    "bars": 80
+                },
+                "timedEvents": []
+            },
+            {
+                "id": "46a29d6e-df05-40d6-bf4a-8ebdcf62f629",
+                "name": "Cool Cycling",
+                "author": "Tom Fritz",
+                "duration": {
+                    "infinite": false,
+                    "bars": 95
+                },
+                "timedEvents": []
+            },
+            {
+                "id": "4c883e36-e2c9-4ab0-99dd-eef0167506a5",
+                "name": "Der Schwarze Korsar",
+                "author": "Tom Fritz",
+                "duration": {
+                    "infinite": false,
+                    "bars": 82
+                },
+                "timedEvents": []
+            },
+            {
+                "id": "1779389a-1971-4c4f-90f8-392b49fd1182",
+                "name": "There's a Power in You",
+                "author": "Tom Fritz",
+                "duration": {
+                    "infinite": false,
+                    "bars": 104
+                },
+                "timedEvents": []
+            },
+            {
+                "id": "ad69caf6-e763-4a0c-8faf-f7500f02cb6c",
+                "name": "En Grec",
+                "author": "Tom Fritz / George Athanasopoulos",
+                "duration": {
+                    "infinite": false,
+                    "bars": 112
+                }
+            }
+        ],
+        "image": "cover-2.png"
+    },
+    {
+        "id": "3",
+        "name": "Die schönsten Volkslieder",
+        "state": 0,
+        "version": 1,
+        "local": false,
+        "songs": [
+            {
+                "id": "8177b097-3a1f-4e91-a3e9-4ef556220f4c",
+                "name": "Im Frühtau zu Berge",
+                "author": "Edwin Ericson (arr. Eric Busch)",
+                "duration": {
+                    "infinite": false,
+                    "bars": 35
+                }
+            }
+        ],
+        "image": "cover-3.png"
+    },
+    {
+        "id": "4",
+        "name": "Energie & Nostalgie",
+        "state": 0,
+        "version": 1,
+        "local": false,
+        "songs": [
+            {
+                "id": "1857aec2-332d-4800-87a9-e734c8b0044b",
+                "name": "Cha Cha Charamba",
+                "author": "Beste Özçelebi",
+                "duration": {
+                    "infinite": false,
+                    "bars": 112
+                }
+            },
+            {
+                "id": "f9b34eec-ccd9-4ef8-8a5e-085a56af1687",
+                "name": "Agent Fresh Breeze",
+                "author": "Tom Fritz",
+                "duration": {
+                    "infinite": false,
+                    "bars": 148
+                }
+            },
+            {
+                "id": "ad69caf6-e763-4a0c-8faf-f7500f02cb6c",
+                "name": "En Grec",
+                "author": "Tom Fritz / George Athanasopoulos",
+                "duration": {
+                    "infinite": false,
+                    "bars": 64
+                }
+            }
+        ],
+        "image": "cover-5.png"
+    },
+    {
+        "id": "5",
+        "name": "Evergreens",
+        "state": 0,
+        "version": 1,
+        "local": false,
+        "songs": [
+            {
+                "id": "941bfa3b-d19c-45d4-a5ce-e6dd18cef7cb",
+                "name": "All of Me",
+                "author": "Gerald Marks & Seymour Simons (arr. Rainer Schumann)",
+                "duration": {
+                    "infinite": false,
+                    "bars": 72
+                }
+            },
+            {
+                "id": "6bcb35e5-70a7-4666-81f7-331fb56acffd",
+                "name": "Girl from Ipanema",
+                "author": "Tom Jobim",
+                "duration": {
+                    "infinite": false,
+                    "bars": 74
+                }
+            }
+        ],
+        "image": "cover-6.png"
+    }
+]

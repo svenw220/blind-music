@@ -1,0 +1,24 @@
+{
+  "extends": "@quasar/app/tsconfig-preset",
+  "compilerOptions": {
+    "target": "es2015",
+    "baseUrl": ".",
+    "types" : [ "node" ],
+    "moduleResolution": "node",
+    "pretty": true,
+    "newLine": "LF",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "allowJs": false,
+    "jsx": "preserve",
+    "noEmit": false
+  }
+  // "include": [
+  //   // "./src-electron/main-process/**/*"
+  //   // "./src/**/*" // Note: This needs to be added to fix some ESLint errors
+  // ]
+}

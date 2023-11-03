@@ -1,0 +1,82 @@
+{
+  "package": {
+    "productName": "THERA-music",
+    "version": "0.4.7"
+  },
+  "build": {
+    "distDir": "../dist/spa",
+    "devPath": "http://localhost:8080",
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "quasar build",
+    "withGlobalTauri": false
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+
+      "targets": "all",
+      "identifier": "com.jymmin.rehab-cycling",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "resources": ["binaries/blueproxy.exe", "binaries/InTheHand.Net.Personal.dll"],
+      "externalBin": [],
+      "copyright": "",
+      "category": "DeveloperTool",
+      "shortDescription": "",
+      "longDescription": "",
+      "deb": {
+        "depends": []
+      },
+      "macOS": {
+        "frameworks": [],
+        "minimumSystemVersion": "",
+        "exceptionDomain": "",
+        "signingIdentity": null,
+        "entitlements": null
+      },
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "",
+        "tsp": false
+      }
+    },
+    "allowlist": {
+      "all": true
+    },
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://jymmin-tauri-update-server.herokuapp.com/app/rehab-cycling/releases/{{target}}/{{current_version}}?channel=preview"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDEyNDQ3NTE0QUM0MEY0REQKUldUZDlFQ3NGSFZFRW96TC9wZ21nYk9LVTBGNlZuSnNLbGxmYllML2xMOEhSS0JTMHZrcm5CM2YK"
+    },
+    "windows": [
+      {
+        "label": "main",
+        "title": "Jymmin Rehab Cycling",
+        "width": 800,
+        "height": 600,
+        "resizable": true,
+        "visible": false,
+        "fullscreen": true
+      },
+      {
+        "width": 800,
+        "height": 450,
+        "decorations": false,
+        "url": "splashscreen.html",
+        "label": "splashscreen",
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": "default-src blob: data: filesystem: ws: wss: http: https: tauri: 'unsafe-eval' 'unsafe-inline' 'self' img-src: 'self' https://dev-ep66vras.eu.auth0.com/*"
+    }
+  }
+}
